@@ -13,16 +13,21 @@ body {
 
 .container{
     width: 100%;
-    max-width: 1200px;
     padding: 20px;
     box-sizing: border-box;
 }
 
-.header {
-    width: 100%;
-    text-align: center;
-    padding: 120px 0;
+.header .Document {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
     background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .header-content {
@@ -34,18 +39,6 @@ body {
 .header-content h1 {
     font-size: 60px;
     margin-bottom: 20px;
-}
-
-.Document {
-    padding: 10px 15px;
-    text-align: pointer;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    font-size: 16px;
-    margin-bottom: 10px 0;
-    display: inline-block;
-    text-decoration: none;
 }
 
 .footer {
