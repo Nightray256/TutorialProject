@@ -171,6 +171,22 @@ body {
     }
 }
 
+.Copyright {
+    color: white;
+    font-size: 12.5px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
 .footer {
     text-align: center;
     padding: 5px 0;
