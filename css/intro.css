@@ -57,6 +57,12 @@ body {
     text-align: center;
 }
 
+.social {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
 .social a {
     text-decoration: none;
     color: white;
@@ -168,6 +174,10 @@ body {
 
     .member-content {
         align-items: center;
+    }
+
+    .social {
+        gap: 10px;
     }
 }
 
