@@ -125,62 +125,6 @@ body {
     font-size: 16px;
 }
 
-@media (max-width: 768px) {
-    .header-content h1 {
-        font-size: 50px;
-    }
-
-    .navbar {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .navlinker {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .navlinker a {
-        padding: 10px;
-        font-size: 16px;
-    }
-
-    .header {
-        padding: 50px 20px;
-    }
-
-    .header-content h1 {
-        font-size: 50px;
-    }
-
-    .team {
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-    }
-
-    .member {
-        width: 45%;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        max-width: none;
-    }
-
-    .member img {
-        margin-bottom: 20px;
-        margin-right: 0;
-    }
-
-    .member-content {
-        align-items: center;
-    }
-
-    .social {
-        gap: 10px;
-    }
-}
-
 .Copyright {
     color: white;
     font-size: 12.5px;
@@ -207,4 +151,80 @@ body {
     margin-bottom: 5px 0;
     color: white;
     font-size: 12.5px;
+}
+
+@media (max-width: 768px) {
+    .header-content h1 {
+        font-size: 50px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navlinker {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navlinker a {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    header {
+        padding: 50px 20px;
+    }
+
+    .header-content h1 {
+        font-size: 50px;
+    }
+
+    .team {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .member {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        max-width: none;
+    }
+
+    .member img {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .member-content {
+        align-items: center;
+    }
+
+    .social {
+        gap: 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header-content h1 {
+        font-size: 60px;
+    }
+
+    .member {
+        max-width: 48%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .header-content h1 {
+        font-size: 70px;
+    }
+
+    .member {
+        max-width: 22%;
+    }
 }
