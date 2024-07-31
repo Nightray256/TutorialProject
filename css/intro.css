@@ -15,6 +15,7 @@ body {
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
+    flex: 1;
 }
 
 .header {
@@ -109,7 +110,6 @@ body {
     object-fit: cover;
     margin-bottom: 20px;
 }
-
 
 .member-content {
     text-align: center;
