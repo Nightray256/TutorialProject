@@ -11,7 +11,7 @@ body {
     overflow-y: auto;
 }
 
-.container{
+.container {
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
@@ -20,7 +20,7 @@ body {
 .header {
     width: 100%;
     text-align: center;
-    padding: 100px 200px;
+    padding: 100px 20px;
     background-color: rgba(0, 0, 0, 0.5);
     position: relative;
 }
@@ -29,7 +29,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
     width: 100%;
 }
 
@@ -45,16 +44,10 @@ body {
     padding: 25px 35px;
     border-radius: 4px;
     text-align: center;
-    justify-content: space-around;
 }
 
 .navlinker a:hover {
     background-color: rgba(0, 0, 0, 0.7);
-}
-
-.social {
-    display: flex;
-    text-align: center;
 }
 
 .social {
