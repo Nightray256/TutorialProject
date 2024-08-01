@@ -7,7 +7,8 @@
     <title>Docs</title>
     <link rel="stylesheet" href="css/document.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
-</head>
+    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
 
 <body>
     <div class="container">
@@ -30,7 +31,11 @@
                 </nav>
                 <h1>Docs</h1>
             </div>
-        </header>
+                <div class="markdown">
+                    <zero-md src="/markdown/test.md"></zero-md>
+                </div>
+                
+        </body>
 
         <section class="Copyright">
             <div class="footer">
